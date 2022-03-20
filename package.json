@@ -1,0 +1,30 @@
+{
+  "name": "gmail-userstyles",
+  "description": "One Dark theme for Gmail",
+  "author": "Thiago Braga <contato@thiagobraga.org>",
+  "version": "0.4.0",
+  "private": true,
+  "license": "MIT",
+  "userstyle": {
+    "name": "Gmail One Dark by @thiagobraga",
+    "namespace": "https://github.com/thiagobraga",
+    "homepageURL": "https://github.com/thiagobraga/gmail-userstyles",
+    "supportURL": "https://github.com/thiagobraga/gmail-userstyles/issues",
+    "updateBaseURL": "https://github.com/thiagobraga/gmail-userstyles/raw/master/",
+    "match": {
+      "domain": "mail.google.com"
+    }
+  },
+  "devDependencies": {
+    "autoprefixer": "10.3.7",
+    "chokidar-cli": "3.0.0",
+    "font-awesome": "4.7.0",
+    "postcss-cli": "9.0.1",
+    "stylus": "0.55.0",
+    "userstyle-gen": "0.1.2"
+  },
+  "resolutions": {
+    "yargs-parser": ">=13.1.2",
+    "ansi-regex": ">=5.0.1"
+  }
+}

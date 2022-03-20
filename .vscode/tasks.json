@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Makefile: All",
+      "type": "shell",
+      "command": "make",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Makefile: Bump version",
+      "type": "shell",
+      "command": "make bump",
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      }
+    },
+  ]
+}
